@@ -1,0 +1,18 @@
+[
+    {
+        "id": "1b34c27e.110f9e",
+        "type": "function",
+        "z": "9063ae66.5d883",
+        "name": "counter",
+        "func": "var x=context.get('x') || 0;\nx +=1;\nmsg.payload=x;\ncontext.set('x',x);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 540,
+        "y": 100,
+        "wires": [
+            [
+                "d03109cd.78be28"
+            ]
+        ]
+    }
+]
